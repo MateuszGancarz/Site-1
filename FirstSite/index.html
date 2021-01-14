@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
-    <title></title>
-  </head>
-  <body>
-    <header>
-      <div class="header-text">
-        <p>
-          <a href="#"><img src="logo.jpg" alt="logo"></a>
-          <a href="#">O mnie</a>
-          <a href="#">Współpraca</a>
-          <a href="#">Porfolio</a>
-          <a href="#">Opinie</a>
-          <a href="#">Kontakt</a>
-        </p>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <title>Mateusz Gancarz- Strona Wizytyówka</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="./public/images/logo.jpg" alt="logo">
       </div>
-    </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="">O mnie</a>
+          </li>
+          <li>
+            <a href="">Współpraca</a>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+          <li>
+            <a href="">Opinie</a>
+          </li>
+          <li>
+            <a href="">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="translation-box">
+        <label for="translation-select-box">Choose a car:</label>
 
-    <div class="">
-      <img src="1.jpg" alt="1" width="45%" >
-      <img src="10.jpg" alt="10" width="25%">
-      <img src="9.jpg" alt="9" width="25%">
-      <img src="1.jpg" alt="1" width="45%" >
-      tu ta galaria hujowa
+        <select name="translation-select-box" id="translation-select-box">
+          <option value="pl">Polski</option>
+          <option value="eng">English</option>
+        </select>
+      </div>
     </div>
+  </header>
 
-    
+</body>
 
-  </body>
 </html>
