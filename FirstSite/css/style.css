@@ -1,4 +1,8 @@
-.header-text {
-  font-family: 'Rubik', sans-serif;
-  color: green;
-}
+@import "./main.css";
+
+
+/* secions */
+@import "./header.css";
+
+
+/* resonsive */
