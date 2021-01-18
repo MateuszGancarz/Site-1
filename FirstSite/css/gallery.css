@@ -1,21 +1,10 @@
-.gallery{
-    display: flex;
-    width: 1272px; 
-    margin-left: 86px;
-}
-
-
-.gallery-big{
-    display: flex;
-    height: auto;
-    justify-content:left;
-    align-items: stretch;
+section{
+    display: inline-block;
+    width: 100%;
+    max-width: 1300px;
 
 }
 
-.gallery-small{
-    display: flex;
-    height: auto;
-    justify-content:left;
-    align-items: baseline;
+section div{
+    display: inline-block;
 }
