@@ -1,0 +1,21 @@
+.gallery{
+    display: flex;
+    width: 1272px; 
+    margin-left: 86px;
+}
+
+
+.gallery-big{
+    display: flex;
+    height: auto;
+    justify-content:left;
+    align-items: stretch;
+
+}
+
+.gallery-small{
+    display: flex;
+    height: auto;
+    justify-content:left;
+    align-items: baseline;
+}
